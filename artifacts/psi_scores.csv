@@ -1,0 +1,3 @@
+Metric,Train→Val,Train→OOT,Val Status,OOT Status
+LR Credit Score,0.0074,0.049,Stable,Stable
+PD (P(default)),0.0074,0.049,Stable,Stable

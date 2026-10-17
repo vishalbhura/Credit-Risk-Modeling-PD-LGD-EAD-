@@ -1,0 +1,14 @@
+Feature,RF Rank,PSI (T→Val),Val Status,PSI (T→OOT),OOT Status
+int_rate,3,0.0899,Stable,0.1246,Monitor
+term,4,0.0,Stable,0.0,Stable
+acc_open_past_24mths,5,0.0105,Stable,0.0033,Stable
+dti,6,0.006,Stable,0.0141,Stable
+fico_range_low,7,0.0011,Stable,0.0666,Stable
+fico_range_high,8,0.0011,Stable,0.0666,Stable
+annual_inc,9,0.0081,Stable,0.0136,Stable
+tot_hi_cred_lim,10,0.0038,Stable,0.0104,Stable
+tot_cur_bal,11,0.0014,Stable,0.0109,Stable
+installment,12,0.015,Stable,0.0296,Stable
+loan_amnt,13,0.0069,Stable,0.0215,Stable
+mths_since_recent_bc,14,0.0061,Stable,0.0043,Stable
+revol_bal,15,0.0057,Stable,0.0218,Stable

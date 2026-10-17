@@ -1,0 +1,21 @@
+Feature,Abs_Coef,Signed_Coef,Direction
+fico_range_high,0.5648,0.5648,Increases LGD
+fico_range_low,0.5647,-0.5647,Decreases LGD
+int_rate,0.0202,-0.0202,Decreases LGD
+num_sats,0.009,-0.009,Decreases LGD
+open_acc,0.0076,0.0076,Increases LGD
+term,0.007,0.007,Increases LGD
+total_rev_hi_lim,0.0066,0.0066,Increases LGD
+dti,0.0052,0.0052,Increases LGD
+num_actv_rev_tl,0.0045,-0.0045,Decreases LGD
+sub_grade,0.0045,0.0045,Increases LGD
+tot_cur_bal,0.0044,0.0044,Increases LGD
+total_acc,0.0044,0.0044,Increases LGD
+revol_bal,0.004,-0.004,Decreases LGD
+loan_amnt,0.0031,-0.0031,Decreases LGD
+inq_last_6mths,0.0027,-0.0027,Decreases LGD
+mths_since_earliest_cr_line,0.0016,0.0016,Increases LGD
+annual_inc,0.0016,0.0016,Increases LGD
+installment,0.0016,0.0016,Increases LGD
+acc_open_past_24mths,0.0015,0.0015,Increases LGD
+mort_acc,0.0012,0.0012,Increases LGD

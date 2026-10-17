@@ -1,0 +1,5 @@
+Model,Metric,Baseline,Model_Val,Improvement_pct
+LGD,MAE,0.065,0.0636,2.1
+LGD,RMSE,0.0962,0.0972,-1.0
+EAD,MAE,0.1835,0.167,9.0
+EAD,RMSE,0.2178,0.2006,7.9

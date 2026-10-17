@@ -1,0 +1,67 @@
+# ── Python ────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Virtual Environments ──────────────────────────────────
+venv/
+env/
+.venv/
+.venv-*/
+.conda/
+
+# ── Jupyter ───────────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ── Large Data Files ──────────────────────────────────────
+# Raw dataset stays local — do not commit to git
+data/raw/*.csv
+data/raw/*.parquet
+data/interim/*.parquet
+data/processed/*.parquet
+
+# ── Serialized Models ─────────────────────────────────────
+# Models are large — regenerate locally from notebooks
+models/*.pkl
+models/**/*.pkl
+# Cox full model object (17 MB) — only cox_params.json is needed
+models/pd/cox_model.joblib
+
+# ── Large Regeneratable Artifacts ─────────────────────────
+# Per-loan level outputs (~42 MB and ~30 MB) — regenerate from notebook 07
+artifacts/credit_policy.csv
+artifacts/expected_loss_customer.csv
+
+# ── Environment Variables ─────────────────────────────────
+.env
+*.env
+
+# ── OS Artifacts ──────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Logs ──────────────────────────────────────────────────
+logs/
+*.log
+
+# ── Temporary Dev Scripts ─────────────────────────────────
+_*.py
+_*.html
+_*.txt
+
+
+# ── Not part of the published project ─────────────────────
+# Third-party reference repos used only while learning the methodology
+refernance_repo/
+# Random Forest model is ~123 MB (> GitHub's 100 MB limit); regenerate with notebook 04
+models/pd/rf_model.joblib
+# Personal / working documents
+PROJECT_SPEC.md
+README.pdf
+README1.md
+docs/interview_guide/

@@ -1,0 +1,5 @@
+Component,Target,Baseline_MAE,Model_MAE,Baseline_RMSE,Model_RMSE,R2,AUC
+LGD Stage 1 (Logistic),P(RR>0),,,,,,0.5499
+LGD Stage 2 (Linear),E[RR|RR>0],0.0519,0.052,—,—,—,—
+LGD Combined,LGD=1-RR,0.065,0.0636,0.0962,0.0972,-0.0246,—
+EAD (Linear),CCF,0.1835,0.167,0.2178,0.2006,0.1126,—

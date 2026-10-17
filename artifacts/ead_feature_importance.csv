@@ -1,0 +1,21 @@
+Feature,Abs_Coef,Signed_Coef,Direction
+fico_range_high,2.1314,2.1314,Increases CCF
+fico_range_low,2.1314,-2.1314,Decreases CCF
+term,0.0532,0.0532,Increases CCF
+open_acc,0.023,-0.023,Decreases CCF
+num_actv_rev_tl,0.0217,-0.0217,Decreases CCF
+num_sats,0.0211,0.0211,Increases CCF
+int_rate,0.0168,-0.0168,Decreases CCF
+acc_open_past_24mths,0.0132,0.0132,Increases CCF
+total_acc,0.0103,0.0103,Increases CCF
+dti,0.0089,0.0089,Increases CCF
+sub_grade,0.0087,0.0087,Increases CCF
+tot_cur_bal,0.0077,0.0077,Increases CCF
+revol_bal,0.0074,0.0074,Increases CCF
+mths_since_last_delinq,0.0069,0.0069,Increases CCF
+inq_last_6mths,0.0066,0.0066,Increases CCF
+tot_hi_cred_lim,0.0058,-0.0058,Decreases CCF
+mths_since_earliest_cr_line,0.0057,-0.0057,Decreases CCF
+installment,0.0054,0.0054,Increases CCF
+num_il_tl,0.0054,-0.0054,Decreases CCF
+emp_length,0.0053,-0.0053,Decreases CCF

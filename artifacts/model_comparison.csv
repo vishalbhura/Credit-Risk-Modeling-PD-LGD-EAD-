@@ -1,0 +1,5 @@
+Model,Features,AUC,Gini,KS,Brier,C-index,Notes
+XGBoost,47 master features,0.7074,0.4148,0.3013,0.2141,,OrdinalEncoding | scale_pos_weight | native NaN handling
+Random Forest,47 master features,0.6993,0.3987,0.2877,0.2113,,OrdinalEncoding + median imputation | class_weight=balanced
+Cox PHM,18 WoE features (survival),0.6948,0.3896,0.2822,0.1314,0.6799,Survival model | C-index=0.680 | time-to-default modeling
+Logistic Regression,18 WoE features,0.6928,0.3855,0.2783,0.13,,WoE encoding | statsmodels | p-value selection | scorecard 300-850

@@ -1,0 +1,42 @@
+[
+  {
+    "Model":"XGBoost",
+    "Features":"47 master features",
+    "AUC":0.7074,
+    "Gini":0.4148,
+    "KS":0.3013,
+    "Brier":0.2141,
+    "C-index":null,
+    "Notes":"OrdinalEncoding | scale_pos_weight | native NaN handling"
+  },
+  {
+    "Model":"Random Forest",
+    "Features":"47 master features",
+    "AUC":0.6993,
+    "Gini":0.3987,
+    "KS":0.2877,
+    "Brier":0.2113,
+    "C-index":null,
+    "Notes":"OrdinalEncoding + median imputation | class_weight=balanced"
+  },
+  {
+    "Model":"Cox PHM",
+    "Features":"18 WoE features (survival)",
+    "AUC":0.6948,
+    "Gini":0.3896,
+    "KS":0.2822,
+    "Brier":0.1314,
+    "C-index":0.6799,
+    "Notes":"Survival model | C-index=0.680 | time-to-default modeling"
+  },
+  {
+    "Model":"Logistic Regression",
+    "Features":"18 WoE features",
+    "AUC":0.6928,
+    "Gini":0.3855,
+    "KS":0.2783,
+    "Brier":0.13,
+    "C-index":null,
+    "Notes":"WoE encoding | statsmodels | p-value selection | scorecard 300-850"
+  }
+]

@@ -1,0 +1,19 @@
+Feature,Coefficient,Odds_Ratio,p_value,Sign,Interpretation
+sub_grade,0.7557,2.1291,0.0,+,Strongest predictor. Better LC grade → lower default. WoE monotonically ordered A1→G5.
+annual_inc,0.6218,1.8624,0.0,+,Higher income → greater repayment capacity → lower default.
+home_ownership,0.6004,1.8229,0.0,+,MORTGAGE/OWN < RENT default rate. Housing stability proxy.
+acc_open_past_24mths,0.5503,1.7338,0.0,+,Controlled recent account growth signals healthy credit engagement.
+term,0.5205,1.6828,0.0,+,36-month loans have lower default rate than 60-month. Duration = duration risk.
+tot_hi_cred_lim,0.3813,1.4642,0.0,+,Higher total credit limit reflects lender trust across all accounts.
+dti,0.3553,1.4267,0.0,+,Lower DTI → greater capacity to service new debt without distress.
+inq_last_6mths,0.2704,1.3105,0.0,+,Fewer recent inquiries → less urgent credit demand → lower risk.
+verification_status,0.2679,1.3073,0.0,+,LC-verified income reduces adverse selection; verified → lower default.
+purpose,0.2668,1.3058,0.0,+,Loan purpose differentiates risk (debt consolidation vs. other purposes).
+num_actv_rev_tl,0.2508,1.2851,0.0,+,Active revolving trades indicate ongoing credit management experience.
+mort_acc,0.2305,1.2592,0.0,+,Mortgage holders demonstrate financial stability and long credit history.
+mths_since_recent_bc,0.2174,1.2429,0.0,+,"Longer time since last bank card → established, stable credit profile."
+fico_range_high,0.2011,1.2228,0.0,+,Higher FICO score → stronger credit history → lower default probability.
+total_rev_hi_lim,0.1438,1.1547,0.0,+,Higher revolving credit limit → positive standing with revolving lenders.
+mths_since_recent_inq,0.1051,1.1108,0.0,+,Longer gap since last inquiry → less recent credit-seeking pressure.
+int_rate,-0.0861,0.9175,0.0,-,Negative after controlling for sub_grade: captures residual pricing risk beyond grade.
+tot_cur_bal,-0.2104,0.8103,0.0002,-,Higher total outstanding balance → heavier debt burden → increased default risk.

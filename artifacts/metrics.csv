@@ -1,0 +1,5 @@
+Model,AUC,Gini,KS,Brier,C-index
+XGBoost,0.7074,0.4148,0.3013,0.2141,
+Random Forest,0.6993,0.3987,0.2877,0.2113,
+Cox PHM,0.6948,0.3896,0.2822,0.1314,0.6799
+Logistic Regression,0.6928,0.3855,0.2783,0.13,

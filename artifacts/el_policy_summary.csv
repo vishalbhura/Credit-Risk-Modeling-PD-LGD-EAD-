@@ -1,0 +1,10 @@
+Item,Before Policy,After Policy
+Validation loans,"434,406","390,898"
+Loans denied,—,"43,508 (10.0%)"
+Default rate,16.76%,14.48%
+Total EL ($),$673.49M,$484.59M
+EL reduction,—,28.0%
+Mean PD,0.1701,0.1468
+Mean LGD,0.9495,0.9516
+Mean CCF,0.5957,0.5818
+Mean EL rate,0.1012,0.0840
