@@ -16,6 +16,11 @@
 </p>
 
 <p align="center">
+  <a href="https://h7lwtqd5i374zzyvj4wnfk.streamlit.app"><img alt="Open the live dashboard" src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg"/></a>
+</p>
+
+<p align="center">
+  <a href="https://h7lwtqd5i374zzyvj4wnfk.streamlit.app"><b>Live Demo</b></a> &bull;
   <a href="#key-results">Key Results</a> &bull;
   <a href="#architecture">Architecture</a> &bull;
   <a href="#methodology">Methodology</a> &bull;
@@ -28,7 +33,7 @@
   <img src="assets/screenshots/tab1_loan_scoring.png" width="49%" alt="Loan scoring tab"/>
   <img src="assets/screenshots/tab2_expected_loss.png" width="49%" alt="Expected loss tab"/>
 </p>
-<p align="center"><i>Interactive Streamlit dashboard: real-time scorecard, Expected Loss, validation charts and explainability.</i></p>
+<p align="center"><i>Interactive Streamlit dashboard: real-time scorecard, Expected Loss, validation charts and explainability. <a href="https://h7lwtqd5i374zzyvj4wnfk.streamlit.app">Try the live app</a>.</i></p>
 
 ---
 
@@ -384,7 +389,7 @@ Stating these openly is part of the validation. Each item has a corresponding re
 
 ## Dashboard
 
-A four-tab Streamlit application (`dashboard/app.py`):
+A four-tab Streamlit application (`dashboard/app.py`), deployed on Streamlit Community Cloud: **[https://h7lwtqd5i374zzyvj4wnfk.streamlit.app](https://h7lwtqd5i374zzyvj4wnfk.streamlit.app)**. The free tier puts idle apps to sleep, so the first load may take about 30 seconds.
 
 | Tab | Purpose |
 |---|---|
